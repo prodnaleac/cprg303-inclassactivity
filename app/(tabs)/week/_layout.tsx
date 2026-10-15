@@ -8,7 +8,7 @@ export default function WeekLayout() {
         headerShown: true,
         headerBackTitle: "Back",
         headerTintColor: "#fff",
-        headerStyle: { backgroundColor: "#1e293b" },
+        headerStyle: { backgroundColor: "#bde0fe" },
         headerTitleStyle: { fontWeight: 600 },
       }}
     >
