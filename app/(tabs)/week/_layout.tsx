@@ -10,19 +10,10 @@ export default function WeekLayout() {
           headerTitleAlign: "left",
           headerShown: false,
           headerBackTitle: "Back",
-          headerTintColor: "fff",
+          headerTintColor: "#fff",
           headerStyle: { backgroundColor: "#1e293b" },
           headerTitleStyle: { fontWeight: 600 },
         }}
-        // Hint: Use the options prop to customize the screen's appearance and behavior
-        // The options prop accepts the following properties:
-        // - title: string
-        // - headerTitleAlign: "left" | "center" | "right"
-        // - headerShown: boolean
-        // - headerBackTitle: string
-        // - headerTintColor: string
-        // - headerStyle: object
-        // - headerTitleStyle: object
       />
     </Stack>
   );
