@@ -7,8 +7,8 @@ export default function WeekLayout() {
         name="index"
         options={{
           title: "Week",
-          headerTitleAlign: "left",
-          headerShown: false,
+          headerTitleAlign: "center",
+          headerShown: true,
           headerBackTitle: "Back",
           headerTintColor: "#fff",
           headerStyle: { backgroundColor: "#1e293b" },
