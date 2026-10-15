@@ -18,7 +18,7 @@ export default function DocsListScreen() {
         data={docs}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
-          <Link href={`/docs/${item.id}`} asChild>
+          <Link href={`/docs/docs/${item.id}`} asChild>
             <Pressable style={styles.item}>
               <Text style={styles.title}>{item.title}</Text>
             </Pressable>
