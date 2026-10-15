@@ -4,7 +4,16 @@ export default function WeekLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name=""
+        name="index"
+        options={{
+          title: "Week",
+          headerTitleAlign: "left",
+          headerShown: false,
+          headerBackTitle: "Back",
+          headerTintColor: "fff",
+          headerStyle: { backgroundColor: "#1e293b" },
+          headerTitleStyle: { fontWeight: 600 },
+        }}
         // Hint: Use the options prop to customize the screen's appearance and behavior
         // The options prop accepts the following properties:
         // - title: string
