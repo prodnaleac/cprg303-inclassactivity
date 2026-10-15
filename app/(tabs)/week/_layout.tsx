@@ -4,7 +4,7 @@ export default function WeekLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="[id]"
+        name="index"
         options={{
           title: "Week",
           headerTitleAlign: "center",
@@ -13,6 +13,14 @@ export default function WeekLayout() {
           headerTintColor: "#fff",
           headerStyle: { backgroundColor: "#1e293b" },
           headerTitleStyle: { fontWeight: 600 },
+        }}
+      />
+      <Stack.Screen
+        name="[id]"
+        options={{
+          title: "Day Details",
+          headerStyle: { backgroundColor: "#1e293b" },
+          headerTintColor: "#fff",
         }}
       />
     </Stack>
