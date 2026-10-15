@@ -90,6 +90,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="docs"
+        options={{
+          title: "Docs",
+          href: null,
+        }}
+      />
+
+      <Tabs.Screen
         name="signup"
         options={{
           title: "User",
