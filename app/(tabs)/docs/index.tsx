@@ -1,5 +1,5 @@
-import { FlatList, Pressable, Text, View, StyleSheet } from 'react-native';
-import { Link } from 'expo-router';
+import { FlatList, Pressable, Text, View, StyleSheet } from "react-native";
+import { Link } from "expo-router";
 
 const docs = [
   {
@@ -18,7 +18,7 @@ export default function DocsListScreen() {
         data={docs}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
-          <Link href={`/docs/docs/${item.id}`} asChild>
+          <Link href={`/(tabs)/docs/${item.id}`} asChild>
             <Pressable style={styles.item}>
               <Text style={styles.title}>{item.title}</Text>
             </Pressable>
